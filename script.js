@@ -21,19 +21,19 @@ function keyPressed() {
 	switch(keyCode) {
 		case 37:
 		case 65:
-			xspeed = -2;
+			xspeed = -10;
 			break;
 		case 39:
 		case 68:
-			xspeed = 2;
+			xspeed = 10;
 			break;
 		case 38:
 		case 87:
-			yspeed = -2;
+			yspeed = -10;
 			break;
 		case 40:
 		case 83:
-			yspeed = 2;
+			yspeed = 10;
 			break;
 	}
 }
