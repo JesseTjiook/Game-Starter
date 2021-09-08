@@ -10,7 +10,7 @@ function draw() {
 	fill(0);
 	text("Use the arrow keys (or WASD) to move the square around", 25, 25);
 	
-	fill(0, 255, 0);
+	fill(255, 100, 255);
 	rect(xpos, ypos, 50, 50);
 	
 	if(xpos >= 0 && xpos + 50 <= 500) xpos += xspeed;
